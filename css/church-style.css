@@ -1,0 +1,162 @@
+/* Custom css styles for the church pages */
+
+
+			body {
+				font-size: 16px;
+			}
+
+			#header {
+				height: 200px;
+			} 
+
+			#header .container {
+				padding: 0 15px;
+				width: 1170px;
+			}
+			
+
+			#main-header {
+				background: transparent;
+				height: 100%;
+			}
+
+			.main-header-donate {
+				display: block;
+				padding: 20px;
+				background: #06c;
+				border: 1px solid #06c;
+				border-radius: 50px;
+				margin: 0 0 5px 0;				
+				text-align: center;
+				}
+
+			.main-header-donate:hover {
+				cursor: pointer;				
+			}
+
+			.main-header-donate a {
+				color: #fff;
+			}
+
+			.main-header-donate > a:hover {
+				color: #fff;
+			}
+
+			#logo h3 {
+				color: #fff;
+				text-shadow: -1px -1px #06c, -1px 1px #06c, 1px -1px #06c, 1px 1px #06c;
+			}
+
+			.container-center-flex {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.container-flex-column {
+				flex-direction: column;
+			}
+			
+			#lower-footer {
+				background: #336db6;
+				color: #fff;
+			}
+
+			.copyright {
+				color: #fff;
+				font-size: 110%;
+			}
+
+			#lower-footer .facebook {
+				display: none;
+			}
+
+			.tooltip-inner {
+				background: #06c;
+				color: #fff;
+			}
+
+			.tooltip.top .tooltip-arrow{
+				border-top-color:#06c; /* Switched May 24 2022 */
+			}
+
+			#button-to-top {
+				background: #06c;
+				color: #fff;
+			}
+
+			#button-to-top:hover {
+				background: #06c;
+				color: #fff;
+			}
+
+			@media(max-width: 991px) {
+
+				.mobile-top-margin {
+					margin-top: 30px;
+				}
+
+				#header .container {
+					padding: 0 15px;
+					width: auto;
+				  }
+
+				.container-center-flex{
+					flex-direction: column;
+				}
+			}
+
+			
+			@media(max-width: 767px) {
+
+				body {
+					padding-top: 0 !important;
+				}
+
+				.container-center-flex{
+					flex-direction: column;
+				}
+
+				#header {
+					height: auto;
+				}
+
+				.animate-header #main-header {
+					height: auto;
+					padding-top: 0;
+					padding-bottom: 0;
+				  }				  
+				 
+				  #header.sticky-header {
+				  position: static;
+				  }
+
+				#header .container {
+					padding: 0 15px;
+					width: 100%;
+				}
+
+				#main-header-inner-container {
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+					height: 100%;
+				}
+
+				.main-header-donate-container {
+					width: 200px;
+					display: block;	
+					margin: 0 auto;
+				}
+
+				.text-center-on-mobile {
+					text-align: center;
+				}
+
+				#contact-form {
+					margin-bottom: 30px;
+				}
+			}
+			

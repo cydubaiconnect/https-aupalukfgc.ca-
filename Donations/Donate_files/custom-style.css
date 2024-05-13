@@ -1,0 +1,314 @@
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+#content {
+    flex: 1 0 auto;
+	background: #fff;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.iydt-dark-blue {
+    color: #243247;
+}
+
+/* Added May 25 2022 */
+
+.arimo-header-font {
+    font-family: "Arimo", sans-serif;
+}
+
+/* Added May 28-29, 2022 */
+
+.downloads-sidebar {
+margin-top: 80px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-iydt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .about-iydt-container img{
+    width: 600px;
+    height: auto;
+} 
+
+/* Donate page */
+
+.donate-container {
+    display: flex;   
+    justify-content: center;
+    align-items: center;     
+	width: 90%;
+	max-width: 600px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 20px auto;
+}
+
+.donate-container img {
+    padding: 0 20px;
+}
+
+.donate-heading {
+    font-size: 30px;
+    text-align: center;
+    color: #14293c;
+}
+
+.donate-message {
+    text-align: center;
+    font-size: 19px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.registration-message {
+    text-align: center;
+    margin: 30px auto !important;
+    font-size: 19px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.iydt-page-text {
+    text-align: justify;
+    margin: 30px auto !important;
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+/* Footer phone link */
+
+.footer-phone-link {
+    color: #dcccb4;
+}
+
+.footer-phone-link:hover {
+    color: #4c8951;
+}
+
+/* Registration form */
+
+#contact-form submit {
+    background: #14293c;
+}
+
+#contact-form submit:hover {
+    background: #4c8951;
+}
+
+.registration-province {
+    background: #91b8c1;
+}
+
+/* May 31 2022 */
+
+.center {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.center-bank-logo {
+    display: block;    
+    margin: 0 auto;
+}
+
+.center-link {
+    display: block !important;
+    width: 115px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+/* IYDT Previous Conferences */
+
+.gallery-heading {
+    background: #fff;
+    color: #14293c;
+    padding: 10px;
+    font-size: 36px;
+}
+
+.facebook-embed-caption {
+    color: #14293c;
+    margin: 5px auto;
+}
+
+/* IYDT 2021 */
+
+.group-photo-heading {    
+        background: #fff;
+        color: #14293c;
+        padding: 10px;
+        font-size: 24px;
+        text-align: center;
+}
+
+.facebook-2021-full-col {
+    max-width: 560px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+/* Added on July 14 2022 */
+
+.col-lg-3.col-md-3.col-sm-4.sidebar {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* Sidebar margins */
+
+.top-banner-margin-30 {
+    margin-top: 30px;
+}
+
+/* Center newsletter icon */
+
+.newsletter-submit .icons.icon-right-dir {
+	margin-left: .3em;
+}
+
+/* Hide home page image(s) and other images so only viewable on mobile */
+
+.mobile-display {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .home-slider-section {
+        padding-top: 0;
+    }
+
+    .padding-tablet-mobile {
+        padding-top: 30px;
+    }
+
+    .flexslider {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .col-lg-3.col-md-3.col-sm-4.sidebar {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+    }
+    
+    .col-md-9, .col-sm-8 {
+        width: 100%;
+    }
+    
+    .gray-bg {
+        background: #f2f1ee;
+        padding-top: 30px;
+        padding-bottom: 30px;       
+    }
+    
+    
+}
+
+@media(max-width: 991px) {
+
+    #newsletter h5 {
+        font-size: 18px;
+    }
+
+    .flexslider {
+        width: 100%;
+        margin: 0;
+    }
+
+       
+    .center-image {
+        display: block;
+        width: 100%;
+        margin: 0 auto 20px;
+      }
+}
+
+@media(max-width: 767px) {
+      #newsletter h5 {
+        font-size: 18px;
+        margin-right: 25px;
+      }
+
+      .slides {
+        display: none;
+      }
+
+       .flex-direction-nav .flex-prev, .flex-direction-nav .flex-next {
+        display: none;
+     }
+
+     .mobile-display {
+        display: block;
+     }
+
+     .gallery-heading {
+        font-size: 30px;
+     }
+
+     .hide-on-mobile {
+        display: none;
+     }
+
+}
+
+@media(max-width: 374px) {
+    #newsletter h5 {
+        font-size: 17px;
+      }
+}

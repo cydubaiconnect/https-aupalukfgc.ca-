@@ -1,0 +1,498 @@
+/* Custom fonts for the Kuut website */
+
+/* NOTE: Download pages specific styles are in an inline style sheet in the head section of the page */
+
+.container {
+    height: 100%;
+}
+
+.container-full {
+    height: 100%;
+    width: 100%;
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.cabin {
+    font-family: 'Cabin';
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+/* Margins */
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+
+.gray-bg-bottom-30
+
+{
+    padding-bottom: 30px !important;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+/* Formatting */
+
+.center {
+    text-align: center;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.kuut-light-blue {
+    color: #06c;
+}
+
+.kuut-dark-blue {
+    color: #054a8d;
+}
+
+.kuut-heading-gradient {
+    background: linear-gradient(#06c, #f3de5f ,#054a8d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* Church pages header */
+
+.church-background {
+    background-image: url('../img/churches/church-header.jpg');	
+}
+
+
+/* Images */
+
+.display-on-mobile {
+	display: none;
+}
+
+.display-on-tablet {
+	display: none;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width-95-pct {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.max-width-560 {
+     width: 90%;
+     max-width: 560px;	
+}
+
+/* Main Header Donate button link */
+
+.main-header-donate > a {
+    color: #06c;
+}
+
+.main-header-donate > a:hover {
+    color: #054a8d;
+}
+
+/* Footer styles to remove socials and center copyright */
+
+#lower-footer .col-lg-4.col-md-4.col-sm-4 {
+	width: 100%;
+	text-align: center;	
+}
+
+#lower-footer .col-lg-8.col-md-8.col-sm-8 {
+	display: none;
+}
+
+#lower-footer .col-lg-6.col-md-6.col-sm-6:first-child {
+	width: 100%;
+	text-align: center;
+}
+
+#lower-footer .col-lg-6.col-md-6.col-sm-6:nth-child(2) {
+	display: none;
+}
+
+
+/* Added May 24 2022 */
+
+.row.flex-home-4-col {
+	display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex-home-4-col .issue-block {
+	height: 100%;
+	/* display: flex;
+	flex: 1; */
+    position: relative;
+}
+
+.fixed-at-bottom {
+    position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.issue-content-list {
+	text-align: left;
+	margin-left: 10px;
+    	margin-bottom: 30px;
+}
+
+.button-180-wide {
+    	width: 180px;
+}
+
+.link-button {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	background: #f3de5f;
+	padding: 10px 15px;
+	text-align: center;
+	border-radius: 200px;
+	color: #06c;
+	font-weight: 501;
+	transition: all 0.3s ease-in-out;
+	}
+
+.link-button:hover, .link-button:active {
+	text-decoration: none;
+	box-shadow: 0px 3px #06c;
+	color: #06c;
+	}
+
+.application-row-2 {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	}			
+
+
+/* Contact Form */
+
+
+input[type="submit"] {
+    	background: #06c;
+   	 border-top: 1px solid #06c;
+   	border-bottom: 1px solid #06c;
+    	transition: all 0.3s ease-in-out;
+}
+
+
+input[type="submit"]:hover {
+  	  background: #f3de5f;
+   	 border-top: 1px solid #f3de5f;
+   	 border-bottom: 1px solid #f3de5f;   
+   	 color: #06c;  
+}
+
+/* Forms success message */
+
+.green, .success {
+  color: #4a9b13;
+  text-align: center !important;;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Churches page */
+
+.church-button {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	background: #f3de5f;
+	padding: 10px 15px;
+	text-align: center;
+	border-radius: 100px;
+	color: #06c;
+	font-weight: 501;
+	transition: all 0.3s ease-in-out;
+}
+
+.church-button:hover, .church-button:active {
+	text-decoration: none;
+  	box-shadow: 0px 3px #06c;
+	color: #06c;
+}
+
+/* Churches facebook */
+
+a.facebook {
+	background-color:#4862a3;
+	border-top:1px solid #5e80bf;
+	border-bottom:1px solid #3a4e82;
+	color: #fff;
+	padding: 4px;
+}
+
+a.facebook:hover a{
+	color:#4862a3;
+}
+
+@media (max-width: 1024px) {
+
+	/* Home page 4 column */
+
+	.row.flex-home-4-col {
+		display: block !important;			
+	}	
+	
+	.flex-home-4-col .issue-block {
+		height: 330px  !important;
+		display: block !important;	
+		position: relative !important;
+	}
+
+	/* Forms success message */
+
+	.green, .success {
+		color: #4a9b13;
+		text-align: center !important;;
+		width: 70%;
+		margin: 0 auto;
+	}
+  
+}
+
+@media (max-width: 991px) {
+	.hide-on-tablet {
+		display: none;
+	}
+
+	.display-on-tablet {
+		display: block;
+	}
+
+	/* Change Menu word colour */
+
+	#menu-button > div > span {	
+		background: #06c !important;	
+	}
+
+	body #lower-header #menu-button > span {
+		color: #054a8d !important;
+	}
+
+	/* Churches facebook */
+
+	a.facebook {
+		background-color:#4862a3;
+		border-top:1px solid #5e80bf;
+		border-bottom:1px solid #3a4e82;
+		color: #fff;
+		padding: 4px;
+	}
+
+	a.facebook:hover a{
+		color:#4862a3;
+	}
+
+	/* Forms success message */
+
+	.green, .success {
+		color: #4a9b13;
+		text-align: center !important;;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	/* Forms page margin for some tablet buttons */
+
+	.margin-bottom-tablet {
+		margin-bottom: 32px;
+	}
+  
+}
+
+@media (max-width: 767px) {
+
+	.font-60 {
+		font-size: 36px;
+	}
+
+	/* Header */
+
+	#header {
+		height: auto;
+	}
+
+	#main-header {
+		padding-top: 0 !important;
+	}
+	
+	#main-header-inner-container {
+		flex-direction: column !important;
+		display: block;
+	}
+
+	header #main-header #logo {
+		margin-bottom: 10px !important;
+		padding-top: 0;
+	  }
+
+	#logo h3 {
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 98%;
+	}
+		
+	.main-header-donate-container {
+		display: block;
+		margin: 0 auto;
+		width: 200px !important;
+	}
+
+	/* Home page banner */
+
+	.hide-on-mobile {
+		display: none;
+	}
+
+	.display-on-mobile {
+		display: block;
+	}
+
+	/* Churches facebook */
+
+	a.facebook {
+		background-color:#4862a3;
+		border-top:1px solid #5e80bf;
+		border-bottom:1px solid #3a4e82;
+		color: #fff;
+		padding: 4px;
+	}
+
+	a.facebook:hover a{
+		color:#4862a3;
+	}	
+
+	/* Forms success message */
+
+	.green, .success {
+		color: #4a9b13;
+		text-align: center !important;;
+		width: 70%;
+		margin: 0 auto;
+	}  
+
+	/* Forms page margin for some tablet buttons */
+
+	.margin-bottom-tablet {
+		margin-bottom: 32px;
+	}
+
+	#button-to-top {
+		right: 10px !important;
+	}
+
+	.copyright {
+		text-align: left !important;
+	}
+}
